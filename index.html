@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/login.css">
+    <link rel="stylesheet" href="./src/css/responsive1.css">
+    <link rel="shortcut icon" href="./src/assets/icon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+    <title>Login</title>
+</head>
+<body>
+    <main class="container">
+
+        <div class="form">
+
+            <h1 class="title">Login</h1>
+
+            <form  method="post" action="/login" class="login">
+
+                <label for="email" class="enter">Usuário:</label>
+                <input type="email" name="email" id="email" placeholder="Digite seu e-mail" required>
+
+                <label for="password" class="enter">Senha:</label>
+                <input type="password" name="password" id="password" placeholder="Digite sua senha" required>
+                
+                <a href="recover.html" class="forgot">Esqueceu a senha?</a>
+
+                <button type="submit" class="button">Entrar</button>
+
+            </form>
+
+            <div class="social">
+                <h2>Ou entre com as redes sociais</h2>
+                <ul class="social-icons">
+                    <li><a href="https://accounts.google.com/v3/signin/identifier?dsh=S-1811138683%3A1666015179790981&continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&emr=1&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&osid=1&passive=1209600&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AQDHYWrPR4OrInFgGhraJ1sM4pqyGB_TsIFPDpGzOps6kCTCPxn7FdQHajSg-Y4HzmDHcvmMRJKWFA"><img src="./src/assets/google.png" alt="login com o google" class="img-login"></a></li>
+                    <li><a href="https://www.linkedin.com/login/pt?fromSignIn=true&trk=guest_homepage-basic_nav-header-signin"><img src="./src/assets/linkedin.png" alt="login com o linkedin" class="img-login"></a></li>
+                    <li><a href="https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home"><img src="./src/assets/github-preto.png" alt="login com o github" class="img-login"></a></li>
+                </ul>
+            </div>
+
+            <div class="footer">
+                <h2>Ainda não tem uma conta?</h2>
+                <a href="./singin.html">Cadastre-se</a>
+            </div>
+
+        </div>
+    </main>
+</body>
+</html>

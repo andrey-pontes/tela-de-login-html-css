@@ -1,0 +1,54 @@
+
+.forgot{
+    text-align: right;
+    padding: 10px 0;
+}
+
+.enter, .forgot{
+    width: 300px;
+    margin: auto;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 2.5em;
+    color: #333333;
+
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffffbb;
+    padding: 20px; 
+}
+
+.img-login{
+    width: 30px;
+}
+
+.social-icons{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.footer, .social{
+    margin-top: 30px;
+}
+
+#email{
+    background: url(../assets/person-fill.svg) no-repeat;
+}
+
+#password{
+    background: url(../assets/shield-lock.svg) no-repeat;
+}
+
+#email, #password{
+    background-size: 18px;
+    background-position: 10px;
+    padding-left: 35px;
+    font-size: 15px;
+}
+

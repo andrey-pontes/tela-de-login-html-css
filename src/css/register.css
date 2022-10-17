@@ -1,0 +1,47 @@
+.register{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffffbb;
+    padding: 20px; 
+}
+
+.form{
+    height: 690px;
+}
+
+.enter{
+    width: 300px;
+    margin: auto;
+}
+
+.title{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.checkbox{
+    margin-top: 20px;
+}
+
+.button{
+    margin-top: 20px;
+}
+
+#fname, #lname{
+    background: url(../assets/person-fill.svg) no-repeat;
+}
+
+#email{
+    background: url(../assets/envelope-fill.svg) no-repeat;
+}
+
+#password, #password-repeat{
+    background: url(../assets/shield-lock.svg) no-repeat;
+}
+
+#fname, #lname, #email, #password, #password-repeat{
+    background-size: 18px;
+    background-position: 10px;
+    padding-left: 35px;
+    font-size: 15px;
+}

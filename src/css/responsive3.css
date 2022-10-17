@@ -1,0 +1,15 @@
+@media (max-width: 460px) {
+
+    .form{
+        margin: 50px;
+        width: 320px;
+    }
+    
+    .title, .sub-title{
+        width: 250px;
+    }
+
+    input[type=email]{
+        width: 250px;
+    }
+}
